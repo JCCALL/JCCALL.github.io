@@ -1,0 +1,222 @@
+body{
+    width: 100%;
+    background-image: url("../images/webb.png");
+    margin: 0px;
+}
+
+.content{
+    
+}
+.heading{
+    background-color: #ffffff;
+    border: solid #cccccc;
+    width: 100%; 
+    height: 100px;
+    margin: -1px;
+    
+}
+
+
+h1 {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    margin: 24px 0px 0px 250px;
+    float: left;
+    padding: 20px;
+    
+    
+}
+.link{
+    color: #b8c7d9;
+    clear: both;
+    display: inline-block;
+    margin: 25px 0px 0px 400px;
+    padding: 20px 0px;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+}
+.index{
+    border-right: 1px solid #b8c7d9;
+    padding: 0px 20px;
+    color: #b8c7d9 ;
+}
+.contact-page{
+    color:#b8c7d9;
+    padding: 0px 20px;
+}
+.portfolio-page{
+    border-right: 1px solid #b8c7d9;
+    color:#b8c7d9;
+    padding: 0px 20px;
+}
+h2{
+    color: #4aaaa5;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+hr{
+    border-top: 1px solid #cccccc;
+}
+.bio {
+    width: 960;
+    margin: 50px 250px -50px 250px;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    padding: 20px;
+}
+.bio-pic{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin: 10px 20px 10px 0px;
+}
+.contact{
+    width: 960;
+    margin: 50px 250px -50px 250px;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    padding: 20px;
+}
+input[type=text], textarea{
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid #cccccc;
+    resize: vertical;
+
+}
+input[type=email]{
+    width: 100%;
+    padding: 5px 0px;
+    border: 1px solid #cccccc;
+    resize: vertical
+}
+input[type=submit]{
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px 20px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    cursor: pointer;
+}
+input[type=submit]:hover{
+    background-color: #397c79;
+}
+.portfolio{
+    width: 960;
+    margin: 50px 250px -50px 250px;
+    background-color: #ffffff;
+    border: solid #dddddd;
+    padding: 20px;
+}
+.portfolio-pics{
+    display: grid;
+    grid-template-columns: 320px 320px;
+}
+.pic1{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.pic1a{
+   
+}
+.site-one{
+    background: #4aaaa5;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 51%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.pic2{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.pic2a{
+   
+}
+.site-two{
+    background: #4aaaa5;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 51%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+}    
+.pic3{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.site-three{
+    background: #4aaaa5;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 82%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.pic4{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.site-four{
+    background: #4aaaa5;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 82%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.pic5{
+    width: 300px;
+    height: 200px;
+    margin: 20px 0px;
+}
+.site-five{
+    background: #4aaaa5;
+    height: 20px;
+    width: 300px;
+    margin: 0px;
+    text-align: center;
+    padding: 20px 0px;
+    position: absolute;
+    top: 113%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+}
+.footer{
+    text-align: center;
+    vertical-align: text-bottom;
+    background-color: #666666;
+    font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    color: #777777;
+    padding-top: 50px;
+    border-top: 8px solid #4aaaa5;
+    
+
+}
+.push{
+    height: 100px;
+}
