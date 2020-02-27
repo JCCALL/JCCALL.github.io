@@ -10,7 +10,7 @@ body{
 .heading{
     background-color: #ffffff;
     border: solid #cccccc;
-    width: 100%; 
+    width: 1446px; 
     height: 100px;
     margin: -1px;
     
@@ -21,56 +21,74 @@ h1 {
     background-color: #4aaaa5;
     color: #ffffff;
     font-family: 'Georgia', Times, Times New Roman, serif;
-    margin: 24px 0px 0px 250px;
+    margin: 25px 0px 0px 250px;
     float: left;
     padding: 20px;
-    
+    font-size: 35px
     
 }
 .link{
-    color: #b8c7d9;
-    clear: both;
-    display: inline-block;
-    margin: 25px 0px 0px 400px;
-    padding: 20px 0px;
+    color: #777777;
+    float: right;
+    margin-top: 33px;
+    margin-right: 250px;
     font-family: 'Arial', 'helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
 }
 .index{
-    border-right: 1px solid #b8c7d9;
+    border-right: 1px solid #777777;
     padding: 0px 20px;
-    color: #b8c7d9 ;
+    color: #777777 ;
+    text-decoration: none;
 }
 .contact-page{
-    color:#b8c7d9;
+    color:#777777;
     padding: 0px 20px;
+    text-decoration: none;
 }
 .portfolio-page{
-    border-right: 1px solid #b8c7d9;
-    color:#b8c7d9;
+    border-right: 1px solid #777777;
+    color: #777777;
     padding: 0px 20px;
+    text-decoration: none;
+}
+
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
 }
 h2{
     color: #4aaaa5;
     font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 25px;
 }
 hr{
     border-top: 1px solid #cccccc;
 }
 .bio {
-    width: 960;
+    width: 960px;
     margin: 50px 250px -50px 250px;
     background-color: #ffffff;
     border: solid #dddddd;
     padding: 20px;
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 20px;
 }
+
 .bio-pic{
     width: 200px;
     height: 200px;
     float: left;
     margin: 10px 20px 10px 0px;
 }
+.qoute{
+    font-style: italic;
+    text-align: center;
+}
 .contact{
-    width: 960;
+    width: 960px;
     margin: 50px 250px -50px 250px;
     background-color: #ffffff;
     border: solid #dddddd;
@@ -81,13 +99,22 @@ input[type=text], textarea{
     padding: 5px 0px;
     border: 1px solid #cccccc;
     resize: vertical;
+    margin: 10px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
 
+}
+textarea{
+    height: 300px;
 }
 input[type=email]{
     width: 100%;
     padding: 5px 0px;
     border: 1px solid #cccccc;
     resize: vertical
+    margin: 10px 0px;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-size: 15px;
 }
 input[type=submit]{
     background-color: #4aaaa5;
@@ -100,7 +127,7 @@ input[type=submit]:hover{
     background-color: #397c79;
 }
 .portfolio{
-    width: 960;
+    width: 960px;
     margin: 50px 250px -50px 250px;
     background-color: #ffffff;
     border: solid #dddddd;
@@ -109,14 +136,16 @@ input[type=submit]:hover{
 .portfolio-pics{
     display: grid;
     grid-template-columns: 320px 320px;
+    
+    
 }
 .pic1{
     width: 300px;
     height: 200px;
-    margin: 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 .pic1a{
-   
+   position: relative;
 }
 .site-one{
     background: #4aaaa5;
@@ -126,18 +155,19 @@ input[type=submit]:hover{
     text-align: center;
     padding: 20px 0px;
     position: absolute;
-    top: 51%;
+    top: 55%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     font-size: 20px;
+    
 }
 .pic2{
     width: 300px;
     height: 200px;
-    margin: 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 .pic2a{
-   
+   position: relative;
 }
 .site-two{
     background: #4aaaa5;
@@ -147,7 +177,7 @@ input[type=submit]:hover{
     text-align: center;
     padding: 20px 0px;
     position: absolute;
-    top: 51%;
+    top: 55%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     font-size: 20px;
@@ -155,8 +185,11 @@ input[type=submit]:hover{
 .pic3{
     width: 300px;
     height: 200px;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
+.pic3a{
+    position: relative;
+ }
 .site-three{
     background: #4aaaa5;
     height: 20px;
@@ -165,7 +198,7 @@ input[type=submit]:hover{
     text-align: center;
     padding: 20px 0px;
     position: absolute;
-    top: 82%;
+    top: 55%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     font-size: 20px;
@@ -173,8 +206,11 @@ input[type=submit]:hover{
 .pic4{
     width: 300px;
     height: 200px;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
+.pic4a{
+    position: relative;
+ }
 .site-four{
     background: #4aaaa5;
     height: 20px;
@@ -183,7 +219,7 @@ input[type=submit]:hover{
     text-align: center;
     padding: 20px 0px;
     position: absolute;
-    top: 82%;
+    top: 55%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     font-size: 20px;
@@ -191,8 +227,11 @@ input[type=submit]:hover{
 .pic5{
     width: 300px;
     height: 200px;
-    margin: 20px 0px;
+    margin-bottom: 20px;
 }
+.pic5a{
+    position: relative;
+ }
 .site-five{
     background: #4aaaa5;
     height: 20px;
@@ -201,7 +240,7 @@ input[type=submit]:hover{
     text-align: center;
     padding: 20px 0px;
     position: absolute;
-    top: 113%;
+    top: 55%;
     font-family: 'Georgia', Times, Times New Roman, serif;
     color: #ffffff;
     font-size: 20px;
@@ -218,5 +257,5 @@ input[type=submit]:hover{
 
 }
 .push{
-    height: 100px;
+    height: 200px;
 }
