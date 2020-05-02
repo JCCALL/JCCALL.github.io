@@ -1,7 +1,8 @@
 # Portfolio
 
 Portfolio for Jordan Call
-[https://jccall.github.io/JCC-Portfolio/](https://jccall.github.io/JCC-Portfolio/)
+
+[Portfolio](https://jccall.github.io/ "Portfolio")
 
 This portfolio gives a basic background for Jordan Call, and shares his projects that he has made.
 
