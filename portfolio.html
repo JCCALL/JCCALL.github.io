@@ -20,8 +20,8 @@
   <header>
     <nav class="grey darken-1">
       <div class="nav-wrapper">
-        <a src="#" class="brand-logo center"><img id="logo" src="assets/images/logo.jpg" width="300px"
-            height="200px"></a>
+        <a src="#" class="brand-logo center"><img id="logo" src="assets/images/monogram.jpg" width="300px"
+            height="300px"></a>
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul id="nav-mobile" class="right hide-on-med-and-down">
           <li><a class="waves-effect waves-light" href="index.html">About Me</a></li>
@@ -30,7 +30,7 @@
         </ul>
       </div>
     </nav>
-    <ul id="mobile-demo" class="sidenav">
+    <ul id="mobile-demo" class="sidenav grey darken-1">
       <li><a class="waves-effect waves-light" href="index.html">About Me</a></li>
       <li><a class="waves-effect waves-light" href="portfolio.html">Portfolio</a></li>
       <li><a class="waves-effect waves-light modal-trigger" href="#modal1">Contact</a></li>
@@ -66,13 +66,20 @@
         <img class="responsive-img" src="assets/images/mountain2.jpg">
       </div>
     </div>
-    <div class="section grey lighten-4">
+    <div class="section" id="about">
       <div class="row">
         <div class="col l12 s12">
-          <h1 id="port" class="center-align">My Portfolio</h1>
+          <h1 id="port" class="center-align">My Portfolio</h1> 
+          <hr id="phr">
+          <br>
+          <div class="col l6 s12">
+            <a class="center-align evenCuriouser" href="https://even-curiouser.herokuapp.com/" target="_blank">Even Curiouser<img class="eC1" src="./assets/images/evenCuriouser.png"></a>
+          </div>
+          <div class="col l6 s12" id="stream">
+            <a class="center-align streamline" href="https://verbose-octo-train.herokuapp.com/" target="_blank">Streamline<img class="sl1" src="./assets/images/streamline.png"></a>
+          </div>
+         <div class="col l12 s12">
           <div class="carousel">
-            <a class="carousel-item center-align gif" href="https://even-curiouser.herokuapp.com/" target="_blank">Even Curiouser<img
-                class="portgif" src="./assets/images/evenCuriouser.png" height="350px"></a>
             <a class="carousel-item center-align gif" href="https://jccall.github.io/Word-Guess-Game/" target="_blank">Hangman<img
                 class="portgif" src="https://media.giphy.com/media/VNHTrO8h0fKAE/source.gif" height="350px"></a>
             <a class="carousel-item center-align gif" href="https://jccall.github.io/unit-4-game/" target="_blank">RPG Game<img
@@ -101,9 +108,8 @@
                 class="portgif" src="https://media.giphy.com/media/3oEjHPUyNPSIp3anZu/source.gif" height="350px"></a>
             <a class="carousel-item center-align gif" href="https://jccall.github.io/clicky-game/" target="_blank">Clicky-Game<img
                 class="portgif" src="https://media.giphy.com/media/GSa3okd5ltyLe/source.gif" height="350px"></a>
-            <a class="carousel-item center-align gif" href="https://verbose-octo-train.herokuapp.com/" target="_blank">Streamline<img
-                class="portgif" src="./assets/images/streamline.png" height="350px"></a>
           </div>
+         </div>
         </div>
       </div>
     </div>
@@ -118,13 +124,13 @@
   <footer class="page-footer grey darken-1">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
+        <div class="col l6 s6">
           <h5 class="white-text">Created By:</h5>
           <ul>
             <li>Jordan Call</li>
           </ul>
         </div>
-        <div class="col l4 offset-l2 s12">
+        <div class="col l4 offset-l2 s5 offset-s1">
           <h5 class="white-text">Links</h5>
           <ul>
             <li>
@@ -145,7 +151,7 @@
       </div>
     </div>
     <div class="footer-copyright">
-      <div class="container">
+      <div class="container center-align">
         © 2020 Copyright C4 Design
       </div>
     </div>
