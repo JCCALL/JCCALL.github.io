@@ -81,6 +81,7 @@ main {
 
 .carousel .carousel-item {
   left: -200px;
+  
 }
 .carousel .carousel-item > img {
   width: 300%;
@@ -174,5 +175,17 @@ p {
   #stream{
     margin-top: 30px;
     border-top: solid #416cb4 2px;
+  }
+
+  .portgif{
+    height: 325px;
+  }
+
+  .carousel .carousel-item {
+    left: -100px;
+    
+  }
+  .carousel .carousel-item > img {
+    width: 200%;
   }
 }
