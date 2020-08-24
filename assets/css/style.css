@@ -166,6 +166,10 @@ p {
   overflow: visible;
 }
 
+.sDiscription {
+  margin-top: 104px;
+}
+
 @media only screen and (max-width: 992px) {
   #stream{
     margin-top: 30px;
