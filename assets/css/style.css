@@ -136,6 +136,14 @@ p {
   font-size: 20px;
 }
 
+.wciLLC {
+  width: 100%;
+  color: #416cb4;
+  font-family: trajan;
+  text-shadow: 0px 0px 10px rgb(255, 255, 255);
+  font-size: 20px;
+} 
+
 .evenCuriouser {
   width: 100%;
   color: #416cb4;
